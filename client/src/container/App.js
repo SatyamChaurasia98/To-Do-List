@@ -2,7 +2,7 @@ import React,{createContext,useReducer}from 'react';
 import List from '../components/List/List'
 import InputData from '../components/Input Field/inputData'
 import {Appdiv,AppH1} from './AppCss'
-import {initialState, reducer } from '../components/Reducer/Reducer';
+import {initialState, reducer } from '../Reducer/Reducer';
 
 export const UserContext = createContext()
 

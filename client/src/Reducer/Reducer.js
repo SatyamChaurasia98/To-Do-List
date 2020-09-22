@@ -1,4 +1,4 @@
-import {TodoData} from '../Data/data'
+import {TodoData} from '../components/Data/data'
 export const initialState = TodoData
 
 export const reducer = (state,action)=>{
